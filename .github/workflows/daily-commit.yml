@@ -15,10 +15,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Configure Git (21f2000348ds.study.iitm.ac.in)
+      - name: Configure Git (21f2000348@ds.study.iitm.ac.in)
         run: |
           git config --global user.name "alanbgeorge"
-          git config --global user.email "21f2000348ds.study.iitm.ac.in"
+          git config --global user.email "21f2000348@ds.study.iitm.ac.in"
 
       - name: Make a Change
         run: |
