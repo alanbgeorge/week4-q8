@@ -24,4 +24,4 @@ jobs:
           git config --global user.email "21f2000348@ds.study.iitm.ac.in"
           git add changelog.txt
           git commit -m "Daily update: $(date -u)" || exit 0  # Avoid failure if no changes
-          git push
+          git push
